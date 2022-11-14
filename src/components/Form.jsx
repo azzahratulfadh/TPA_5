@@ -28,7 +28,6 @@ const Form = (props) => {
           <input
             className="border-2 border-gray-300 mr-5 p-3 w-96 rounded-sm"
             type="text"
-            placeholder="What to do"
             value={nameTodo}
             onChange={handleChange}
           />
